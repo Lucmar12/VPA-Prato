@@ -70,8 +70,7 @@ h3{font-size:1.75rem;line-height:1.1}
 .hero-sub{margin-top:28px;font-size:1.375rem;line-height:1.5;max-width:560px}
 .hero .btn-row{margin-top:36px}
 .hero-art{position:relative;width:min(520px,100%);aspect-ratio:1;justify-self:center}
-.hero-art svg{position:absolute;inset:0;width:100%;height:100%}
-.hero-art img{position:absolute;inset:9.6%;width:80.8%;height:80.8%;border-radius:50%;object-fit:cover}
+.hero-art img{display:block;width:100%;height:100%;border-radius:50%;object-fit:cover}
 .page-hero{background:var(--blue);color:#fff;padding:72px 0 80px}
 .page-hero h1{font-weight:800;font-size:clamp(3.25rem,7.5vw,6.5rem);line-height:.94;letter-spacing:-1px}
 .page-hero p{margin-top:24px;font-size:1.375rem;line-height:1.5;max-width:700px}

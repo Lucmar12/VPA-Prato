@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import Meta from '../components/Meta.jsx'
-import { Arcs } from '../components/Icons.jsx'
 import { Placeholder, Person, TeamRows, TrialForm } from '../components/ui.jsx'
 import { Social } from '../components/Footer.jsx'
 import { facts, teams, site } from '../data/site.js'
@@ -30,7 +29,6 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-art">
-            <Arcs />
             <img src="/logo.png" alt="Logo Volley Prato Academy con leone e pallone" width="420" height="420" />
           </div>
         </div>
