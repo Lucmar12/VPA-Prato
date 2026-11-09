@@ -22,7 +22,7 @@ export default function Header() {
   return (
     <header className={'site-header' + (open ? ' open' : '')}>
       <div className="header-inner">
-        <Link className="brand" to="/">
+        <Link className="brand" to="/sito">
           <img src="/logo.png" alt="" width="60" height="60" />
           <span>{site.name}</span>
         </Link>

@@ -34,7 +34,27 @@ export const facts = [
 export const teams = [
   { name: '[Nuova squadra]', short: '[Categoria]', long: '[Categoria e descrizione]' },
   { name: 'Under 12', short: 'Campionato territoriale FIPAV', long: 'Campionato territoriale FIPAV, dalla stagione 2023/24.' },
-  { name: 'Minivolley', short: 'Bambine da 6 a 10 anni', long: 'Bambine da 6 a 10 anni. Avviamento alla pallavolo con istruttori qualificati e una prova gratuita senza impegno.' },
+  { name: 'Minivolley', short: 'Bambine da 6 a 10 anni', long: 'Bambine da 6 a 10 anni. Avviamento alla pallavolo con allenatori qualificati e una prova gratuita senza impegno.' },
+]
+
+// I loghi stanno in /public/sponsor. Per aggiungerne uno: metti il file lì e aggiungi una riga.
+export const sponsor = [
+  { slug: 'bcm', nome: 'Gruppo B.C.M.' },
+  { slug: 'clikki', nome: 'Clikki' },
+  { slug: 'emotion', nome: 'Emotion' },
+  { slug: 'la-prato-scavi', nome: 'La Prato Scavi' },
+  { slug: 'of-costruzioni', nome: 'O.F. Costruzioni' },
+  { slug: 'overdrive', nome: 'Overdrive' },
+  { slug: 'computer-net', nome: 'Computer Net Group' },
+  { slug: 'tognetti', nome: 'Tognetti Fabio' },
+  { slug: 'gelatiamo', nome: 'Gelatiamo 2.0' },
+  { slug: 'hr27', nome: 'HR 27' },
+  { slug: 'molino-borgioli', nome: 'Molino Borgioli' },
+  { slug: 'tecnospeedy', nome: 'Tecnospeedy' },
+  { slug: 'miraglia', nome: 'Miraglia' },
+  { slug: 'videco', nome: 'Videco Costruzioni' },
+  { slug: 'quartier-generale', nome: 'Quartier Generale' },
+  { slug: 'aic', nome: 'AiC Artigiani in Cucina' },
 ]
 
 export const values = [
@@ -44,15 +64,14 @@ export const values = [
 ]
 
 export const steps = [
-  { n: '1', title: 'Richiedi la prova', text: 'Compila il modulo qui sotto o scrivici su WhatsApp.' },
+  { n: '1', title: 'Richiedi la prova', text: 'Scrivici su WhatsApp: bastano il nome e l’età di tua figlia.' },
   { n: '2', title: 'Vieni a provare', text: 'La prova è gratuita e senza impegno, negli impianti dove si tengono i corsi.' },
   { n: '3', title: 'Iscriviti', text: 'Se le è piaciuto, ti diamo tutte le informazioni per iscriverla.' },
 ]
 
 export const faq = [
-  { q: 'La prova è davvero gratuita?', a: 'Sì. Le bambine possono fare una prova gratuita, senza impegno, negli impianti dove si tengono i corsi di minivolley.' },
-  { q: 'Da che età si può iniziare?', a: 'Il minivolley è per bambine da 6 a 10 anni.' },
-  { q: 'Chi tiene gli allenamenti?', a: 'Istruttori qualificati.' },
+  { q: 'La prova è davvero gratuita?', a: 'Sì. Le bambine possono fare una prova gratuita, senza impegno, negli impianti dove si tengono i corsi.' },
+  { q: 'Da che età si può iniziare?', a: 'Si parte dal minivolley, per bambine da 6 a 10 anni. Le più grandi proseguono nelle squadre giovanili: per la stagione 2026/27 cerchiamo atlete nate dal 2012 al 2016.' },
   { q: 'Cosa serve per la prima volta?', a: '[Da inserire: abbigliamento, certificato, ecc.]' },
-  { q: 'Come posso contattarvi?', a: 'Con il modulo, via email a info@volleypratoacademy.com oppure su WhatsApp al +39 392 7678783.' },
+  { q: 'Come posso contattarvi?', a: 'Su WhatsApp al +39 392 7678783.' },
 ]

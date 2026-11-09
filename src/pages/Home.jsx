@@ -93,7 +93,7 @@ export default function Home() {
           <div className="stack">
             <h2 style={{ fontSize: 'clamp(3rem,6vw,4.5rem)', fontWeight: 800, lineHeight: 0.98 }}>Prova il volley, gratis</h2>
             <p className="lead" style={{ color: '#E3EAFB', maxWidth: 520 }}>
-              Corsi di avviamento al minivolley per bambine da 6 a 10 anni, con istruttori qualificati. La prova è gratuita e senza impegno, negli impianti dove si tengono i corsi.
+              Corsi di avviamento al minivolley per bambine da 6 a 10 anni, con allenatori qualificati. La prova è gratuita e senza impegno, negli impianti dove si tengono i corsi.
             </p>
             <div className="note-box" style={{ maxWidth: 520 }}>
               <strong>Dove ci alleniamo</strong>
